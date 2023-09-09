@@ -70,13 +70,17 @@ python config.py
 
 Os administradores do bot podem personalizar as configurações editando o arquivo `settings.json` no diretório do bot. Este arquivo contém informações como tokens, URLs e credenciais para os testes.
 
-## Contribuição
+## Desenvolvimento
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) ou enviar solicitações de recebimento (pull requests) para melhorias ou correções.
+Este projeto foi desenvolvido por Minerd | @batmonn. Você pode usar este código como referência ou para fins educacionais, mas não tem permissão para distribuí-lo para fins comerciais.
+
+© Saymon Tavares, 2023
+@canalminerdso
+
 
 ## Licença
 
-Este projeto é licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
+Este projeto é free opensource.
 
 ---
 
