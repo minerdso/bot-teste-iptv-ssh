@@ -1,4 +1,3 @@
-Claro, vou criar um README.md mais detalhado com instruções claras sobre como configurar e usar o bot no Telegram, incluindo informações sobre como definir o token no arquivo .env e como executar o script de configuração e o script de instalação. Aqui está o README.md atualizado:
 
 ```markdown
 # Bot de Teste IPTV e NET
