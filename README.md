@@ -1,3 +1,6 @@
+Claro, vou criar um README.md mais detalhado com instruções claras sobre como configurar e usar o bot no Telegram, incluindo informações sobre como definir o token no arquivo .env e como executar o script de configuração e o script de instalação. Aqui está o README.md atualizado:
+
+```markdown
 # Bot de Teste IPTV e NET
 
 Este bot permite que os usuários gerem testes para serviços IPTV e NET e recebam os resultados em seus chats no Telegram. Ele é desenvolvido em Python e utiliza a biblioteca `pyTelegramBotAPI` para interagir com o Telegram.
@@ -10,41 +13,49 @@ Este bot permite que os usuários gerem testes para serviços IPTV e NET e receb
 - Configurações Personalizadas: Os administradores do bot podem configurar informações como tokens, URLs e credenciais para os testes.
 
 ## Pré-requisitos
-Certifique-se de ter os seguintes pré-requisitos instalados:
 
-Python 3
-pip (gerenciador de pacotes Python)
-Git (opcional, apenas se você desejar clonar o repositório do bot)
-Painéis Compatíveis com a API (Opainel e Koffice)
-Certifique-se de ter acesso e informações de configuração para os painéis Opainel e Koffice, pois você precisará delas para configurar o bot corretamente.
+Antes de começar, certifique-se de ter o seguinte:
 
-Isso ajudará os usuários a entenderem quais sistemas são compatíveis com a API e quais informações podem ser necessárias durante a configuração do bot. Certifique-se de fornecer detalhes suficientes sobre como obter e configurar essas informações, se possível.
+- Python 3 instalado no seu sistema.
+- O gerenciador de pacotes Python pip instalado.
+- Git (opcional, apenas se você desejar clonar o repositório do bot).
+- Tokens de Bot do Telegram: Você deve criar um bot no Telegram e obter seu token. Isso será usado para configurar o bot.
+- Painéis Compatíveis com a API (Opainel e Koffice): Certifique-se de ter acesso e informações de configuração para os painéis Opainel e Koffice, pois você precisará delas para configurar o bot corretamente.
 
 ## Instalação
+
+Siga estas etapas para instalar e configurar o bot:
 
 1. Clone este repositório (opcional):
 
 ```bash
 git clone https://github.com/minerdso/bot-teste-iptv-ssh.git
+
+acesse a pasta
 cd bot-teste-iptv-ssh
 ```
 
-2. Instale as dependências Python:
+2. Altere o arquivo `.env` na pasta raiz do bot e insira seu token do bot do Telegram:
+
+```env
+TELEGRAM_BOT_TOKEN=SeuTokenAqui
+```
+
+3. Instale as dependências Python:
 
 ```bash
 pip3 install pyTelegramBotAPI requests python-decouple
 ```
 
-3. Execute o script de configuração interativamente para configurar seu bot:
+4. Execute o script de configuração interativamente para configurar seu bot:
+
+```bash
+sh instalar.sh
+
+5. Ou se preferir pode ser o config:
 
 ```bash
 python config.py
-```
-
-4. Inicie o bot:
-
-```bash
-python botteste.py
 ```
 
 ## Uso
@@ -71,3 +82,6 @@ Este projeto é licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICE
 ---
 
 Espero que este README.md seja útil para você. Você pode personalizá-lo de acordo com suas necessidades e adicionar informações adicionais sobre o bot e suas funcionalidades. Se precisar de mais ajuda ou tiver alguma dúvida, sinta-se à vontade para perguntar.
+```
+
+Este README.md fornece informações detalhadas sobre como configurar, usar e personalizar o bot, bem como os pré-requisitos necessários. Certifique-se de criar o arquivo .env com o token do bot e seguir as etapas fornecidas para uma configuração bem-sucedida.
